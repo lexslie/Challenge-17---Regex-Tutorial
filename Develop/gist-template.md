@@ -56,7 +56,6 @@ the quantifiers are present in `([a-z0-9_\.-]+)`. It specifies that it will matc
 Flags are a set of instructions that modify the behavior of a regex, such as making the regex case sensitive or allowing it to match multiple lines. A regex flag is not present in the example code we are using in this tutorial. Flags are typically present after the slash in cases where the regular expression is in the common form of `/regex/`.
 
 Flags: 
-
 * g : "global", allows for matching all the instances within a string that follow the matching guidelines set in the regex
 * m : "multiline", searches line by line instead of searching through a string as a whole
 * i : "insensitive", makes the regex case-insensitive, which means that capital and lower-case letters will not deture the matching
