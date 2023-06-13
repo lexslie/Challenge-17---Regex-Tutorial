@@ -48,6 +48,7 @@ Grouping constructs delineate the subexpressions of a regex and capture the subs
 * Apply a quantifier to a subexpression that has multiple regex language elements.
 * Include a subexpression in the string that is returned by the `Regex.Replace` and `Match.Result` methods.
 * Retrieve individual subexpressions from the `Match.Groups` property and process them separately from the matched text as a whole.
+
 Referring back to our example for matching an email, we can divide our regex into three segments. `([a-z0-9_\.-]+)` as the first group, `([\da-z\.-]+)` as our second group, and `([a-z\.]{2,6})` as our third group. The first segment/group must be true before moving on to "match" the next part of the code.
 
 
