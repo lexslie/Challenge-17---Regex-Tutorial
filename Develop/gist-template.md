@@ -38,10 +38,12 @@ Using our code,
 
 `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` 
 
-the quantifiers are present in `([a-z0-9_\.-]+)`. It specifies that it will match any string containing a-z, 0-9, _, ., or -. The quantifier `+` present at the end of the snippet interprets that the email had to contain at least one of the quantifiers listed in order to have a match.
+the quantifiers are present in `([a-z0-9_\.-]+)`. It specifies that it will match any string containing a-z, 0-9, _, ., or -. The quantifier `+` present at the end of the snippet interprets that the email has to contain at least one of the quantifiers listed in order to have a match.
 
 
 ### Grouping Constructs
+
+
 
 ### Bracket Expressions
 
@@ -50,6 +52,15 @@ the quantifiers are present in `([a-z0-9_\.-]+)`. It specifies that it will matc
 ### The OR Operator
 
 ### Flags
+
+Flags are a set of instructions that modify the behavior of a regex, such as making the regex case sensitive or allowing it to match multiple lines. A regex flag is not present in the example code we are using in this tutorial. Flags are typically present after the slash in cases where the regular expression is in the common form of `/regex/`.
+
+Flags: 
+
+* g : "global", allows for matching all the instances within a string that follow the matching guidelines set in the regex
+* m : "multiline", searches line by line instead of searching through a string as a whole
+* i : "insensitive", makes the regex case-insensitive, which means that capital and lower-case letters will not deture the matching
+
 
 ### Character Escapes
 
