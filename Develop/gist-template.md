@@ -33,6 +33,14 @@ the anchors are `^` (starting the regex) and `$` (ending the regex).
 
 ### Quantifiers
 
+The quantifiers allow you to specify how many of a character or character class should be matched.
+Using our code, 
+
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` 
+
+the quantifiers are present in `([a-z0-9_\.-]+)`. It specifies that it will match any string containing a-z, 0-9, _, ., or -. The quantifier `+` present at the end of the snippet interprets that the email had to contain at least one of the quantifiers listed in order to have a match.
+
+
 ### Grouping Constructs
 
 ### Bracket Expressions
