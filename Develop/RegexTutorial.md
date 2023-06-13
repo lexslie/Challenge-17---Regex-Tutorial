@@ -1,4 +1,4 @@
-# Title Regular Expressions Tutorial
+# Regular Expressions Tutorial
 
 This gist has been created to explain what a regular expression (Regex) is while walking you through how to use the Regex. One would typically use regular expressions to match a certain character combination a specific string, which is ideal ideally for validation or to pull information out of a body of code. This tutorial will demonstrate the various components of regular expressions through an example code snippet that can be used to match an email.
 
