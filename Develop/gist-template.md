@@ -54,6 +54,14 @@ Referring back to our example for matching an email, we can divide our regex int
 
 ### Bracket Expressions
 
+Bracket expressions can be used to match a single character or collating element.
+* `[abcd]` : Matches any character in the square brackets.
+* `[a-d]` : Matches any character in the range of characters separated by a hyphen (-).
+* `[^abcd]` : Matches any character except those in the square brackets or in the range of characters separated by a hyphen (-).
+* `[.ab.]` : Matches a multi-character collating element.
+* `[=a=]` : Matches all collating elements with the same primary sort order as that element, including the element itself.
+
+
 ### Character Classes
 
 ### The OR Operator
