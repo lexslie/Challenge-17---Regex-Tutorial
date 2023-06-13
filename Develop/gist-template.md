@@ -96,6 +96,19 @@ Flags:
 
 ### Character Escapes
 
+Character escapes are used to match a character having special meaning in the regex. Character escapes are recognized in regular expression patterns but not in replacement patterns. Character escapes are represented by `\` followed by the special character each indicating something different.
+
+Here are a few examples: 
+* `\b` : Matches a backspace in a "character_group" character class, and matches a word boundary when outside a character class.
+* `\t` : Matches a tab.
+* `\r` : Matches a carriage return. 
+* `\v` : Matches a vertical tab.
+* `\f` : Matches a form feed.
+* `\n` : Matches a new line.
+* `\e` : Matches an escape.
+* `\` : When followed by a character that is not recognized as an escaped character, matches the character that is following.
+
+
 ## Author
 
 This gist tutorial was created by Leslie Sanchez.
