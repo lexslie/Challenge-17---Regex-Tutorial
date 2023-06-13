@@ -64,6 +64,17 @@ Bracket expressions can be used to match a single character or collating element
 
 ### Character Classes
 
+Character classes are special notations that match any symbol from a certain set.
+
+Below are a few of the more common character classes: 
+* `\d` : digits
+* `\D` : non-digits
+* `\s` : space symbols, tabs, newlines
+* `\S` : all but `\s`
+* `\w` : latin letters, digits, underscore `_`
+* `.` : any character if with the regex `'s'` flag, otherwise any except a newline `\n`
+
+
 ### The OR Operator
 
 ### Flags
