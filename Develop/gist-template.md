@@ -80,6 +80,10 @@ Below are a few of the more common character classes:
 The OR operator `|` is used to match one of multiple patterns, such as `this` or `that`.
 Our example code does contain the OR operator.
 
+Examples: 
+* `hi|hello` : A string that contains either `hi` or `hello`.
+* `(b|cd)ef` : A string that contains either `bef` or `cdef`.
+
 ### Flags
 
 Flags are a set of instructions that modify the behavior of a regex, such as making the regex case sensitive or allowing it to match multiple lines. A regex flag is not present in the example code we are using in this tutorial. Flags are typically present after the slash in cases where the regular expression is in the common form of `/regex/`.
