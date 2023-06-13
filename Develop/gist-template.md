@@ -23,6 +23,14 @@ The regex that will be described can be used for matching emails. This tutorial 
 
 ### Anchors
 
+The anchors match the start and end points of a string or line.
+In the matching email code snippet we are using for the tutorial, 
+
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+
+the anchors are `^` (starting the regex) and `$` (ending the regex).
+
+
 ### Quantifiers
 
 ### Grouping Constructs
@@ -42,6 +50,7 @@ The regex that will be described can be used for matching emails. This tutorial 
 This gist tutorial was created by Leslie Sanchez.
 As a junior developer fresh out of Web Development bootcamp, I am always open to new opportunities and any form of feedback.
 Please feel welcomed to contact me or visit any of my profiles provided below!
+
 [GitHub](https://github.com/lexslie)
 
 [Email](lesliiee727@gmail.com)
