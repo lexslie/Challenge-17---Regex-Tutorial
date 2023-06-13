@@ -5,6 +5,7 @@ This gist has been created to explain what a regular expression (Regex) is while
 ## Summary
 
 The regex that will be described can be used for matching emails. This tutorial will explain how this code can be used to validate that an email is following the correct format. The code that will be used throughout the tutorial is provided below:
+
 `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ## Table of Contents
@@ -38,4 +39,11 @@ The regex that will be described can be used for matching emails. This tutorial 
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This gist tutorial was created by Leslie Sanchez.
+As a junior developer fresh out of Web Development bootcamp, I am always open to new opportunities and any form of feedback.
+Please feel welcomed to contact me or visit any of my profiles provided below!
+[GitHub](https://github.com/lexslie)
+
+[Email](lesliiee727@gmail.com)
+
+[LinkedIn](https://www.linkedin.com/in/leslie-sanchez-903241167/)
